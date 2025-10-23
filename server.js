@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 // Sample API route
 app.get("/api/hello", (req, res) => {
-  res.json({ message: "Hello from Node + Express backend! success" });
+  res.json({ message: "Hello from Node + Express backend! successfully deployed" });
 }); 
 // Start server
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
